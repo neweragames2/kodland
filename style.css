@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: rgba(50, 50, 50, 0.70);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin: 0;
+}
+.logo{
+    height: 31px;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 102px;
+}
+.logo_text{
+    color: #DEDEDE;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+margin-left: 140px;
+margin-top: -25px;
+}
+.up_part_left{
+    background: #202020;
+    width: 920px;
+    height: 419px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+h1{
+    color: #DEDEDE;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 96px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+.avatar{
+    width: 400px;
+    height: 400px;
+    fill:lightgray 50% / cover no-repeat;
+    stroke-width: 1px;
+    stroke: #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.about_me{
+    color: #959595;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 96px;
+    font-weight: 600;
+    width: 547px;
+}
+.up_part_right{
+    width: 551px;
+    background-color: #202020;
+    position: absolute;
+    left: 920px;
+    top: 80px;
+    height: 419px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.avatar{
+    border-radius: 360px;
+    height: 360px;
+    width: 360px;
+    margin-left: 40px;
+}
+.btn_mail{
+    display: flex;
+    width: 400px;
+    height: 64px;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+    background-color: #9D9D9D;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.featured{
+    width: 100%;
+    height: 110px;
+    background-color: #202020;
+    color: #DEDEDE;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.my_works{
+    background-color: #202020;
+    height: 1800px;
+    width: 100%;
+}
+.first_third{
+    background-color: #202020;
+    height: 900px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.first{
+    width: 612px;
+    height: 888px;
+    margin-left: 120px;
+}
+.third{
+    width: 612px;
+    height: 888px;
+    margin-left: 40px;
+}
+.my_advantages{
+    height: 1400px;
+    width: 100%;
+    background-color: #202020;
+}
+.texts_1{
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+}
+.advantages_1{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 250px;
+    position: absolute;
+    top: 2470px;
+}
+.Titel{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 600px;
+    position: absolute;
+    top: 2420px;
+}
+.advantages_2{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 950px;
+    position: absolute;
+    top: 2470px;
+}
+.second_fourth{
+    background-color: #202020;
+    height: 560px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.second{
+    width: 532px;
+    height: 525px;
+    margin-left: 120px;
+}
+.fourth{
+    width: 532px;
+    height: 525px;
+    margin-left: 140px;
+}
+.advantages_3{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 250px;
+    position: absolute;
+    top: 3660px;
+}
+.projects{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 600px;
+    position: absolute;
+    top: 3710px;
+}
+.advantages_4{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 240px;
+    margin-left: 950px;
+    position: absolute;
+    top: 3660px;
+}
+.img_projects{
+    width: 100%;
+    height: 660px;
+    background-color: #202020;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.flappy{
+    margin-left: 80px;
+    width: 400px;
+    height: 560px;
+}
+.ramda{
+    margin-left: 40px;
+    width: 400px;
+    height: 560px;
+}
+.texts_3{
+    width: 100%;
+    height: 100px;
+    background-color: #202020;
+    float: left;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+.flappy_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    width: 500px;
+    height: 76px;
+    margin-left: 145px;
+    float: left;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+.ramda_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    width: 500px;
+    height: 76px;
+    margin-left: 380px;
+    float: left;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+.contacts{
+    width: 100%;
+    height: 300px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: #DEDEDE;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+.freelance{
+    color: #959595;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 76px;
+    margin-left: 31%;
+}
